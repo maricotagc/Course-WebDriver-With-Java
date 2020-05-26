@@ -1,6 +1,6 @@
 package org;
 
-public class StringMethods {
+public class B_StringMethods {
 
     public static void main(String[] args) {
 
