@@ -13,3 +13,16 @@ Web driver is a set of APIs which helps in communication between browsers and pr
 3. Configuration
 * How to configure PATH variable (Env Variable) to avoid declaring System.setProperty for each driver in each class: 
 video 49 (How To Set Drivers in System Path - Windows) + video 44 (Running Tests On Internet Explorer)
+
+4. Wildcards in CSS Selectors
+"^" represents the starting text. Example: input[class^='blabla']
+"$" represents the ending text Example: input[class$='blabla']
+"*" represents the contained text Example: input[class*='blabla']
+
+5. Finding Children
+
+A few examples:
+* tag>tag>selector
+* tag>tag
+* tag/selector
+
